@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Clicker Script;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+.type-26 .title {
+  font-size: 26px;
+  text-align: center;
+  font-family: Cinzel;
+  padding: 30px 0 40px;
+}
+
+.type-26 .post-article {
+  margin-bottom: 50px;
+}
+
+.type-26 .post-article .post-title {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Cinzel;
+}
+
+.type-26 .post-article .post-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.type-26 .post-article .post-title a:hover {
+  color: #f17677;
+}
+
+.type-26 .post-article .post-content {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Lato;
+  margin: 10px 0;
+}
+
+.type-26 .post-article .post-date {
+  float: left;
+}
+
+.type-26 .post-article .post-date h5 {
+  color: #393939;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Cinzel;
+}
+
+.type-26 .post-article .clear {
+  clear: both;
+}
+
+.type-26 .post-article .post-meta div {
+  float: left;
+  margin: -1px 0 0 -1px;
+  padding: 15px 15px 12px;
+}
+
+.type-26 .post-article .post-meta div i {
+  margin: 0 5px;
+}
+
+.type-26 .post-article .post-meta div .count {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Cinzel;
+  color: #f17677;
+}
+
+.type-26 .post-article .post-meta a {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Cinzel;
+  color: #f17677;
+}
+
+.type-26 .post-article .post-meta .love {
+  float: right;
+}
+
+.type-26 .post-article .post-meta .love a {
+  text-decoration: none;
+}
+
+@-webkit-keyframes up-btn {
+  from {
+    top: 70%;
+  }
+  to {
+    top: 50%;
+  }
+}
+
+@keyframes up-btn {
+  from {
+    top: 70%;
+  }
+  to {
+    top: 50%;
+  }
+}
+/*# sourceMappingURL=26.css.map */

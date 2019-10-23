@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Clicker Script';
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+.type-6 {
+  min-height: 696px;
+  background: transparent;
+  padding: 30px;
+}
+
+.type-6 .push {
+  height: 200px;
+}
+
+.type-6 h3 {
+  text-align: left;
+  font-size: 82px;
+  line-height: 100px;
+  font-family: Clicker Script;
+  color: #fff;
+}
+
+.type-6 .bottle-parallax {
+  min-height: 200px;
+  padding: 25px 0 40px 0;
+  display: block;
+  z-index: -1;
+  width: 100%;
+  background-image: url("../images/6-2.png");
+  background-position: 80% 69px;
+  background-color: rgba(0, 0, 0, 0);
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.type-6 .form-attending .form {
+  position: relative;
+  margin: 45px -15px 0;
+  padding: 0 40px;
+  background: #fff;
+  text-align: center;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.type-6 .form-attending .form::before {
+  display: inline-block;
+  margin-top: -45px;
+  content: url("../images/form.svg");
+}
+
+.type-6 .form-attending .form h2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Cinzel;
+  color: #000;
+}
+
+.type-6 .form-attending .form .form-content {
+  position: relative;
+  margin: 30px -40px 0;
+  padding: 20px 40px 0;
+  background: #fff8f3;
+  position: relative;
+}
+
+.type-6 .form-attending .form .form-content:before {
+  position: absolute;
+  top: -4px;
+  right: 0;
+  left: 0;
+  display: block;
+  height: 2px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  content: "";
+}
+
+.type-6 .form-attending .form .form-content h4 {
+  color: #898989;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: Clicker Script;
+}
+
+.type-6 .form-attending .form .form-content .your-name {
+  margin-bottom: 5px;
+}
+
+.type-6 .form-attending .form .form-content .your-name .input-name {
+  background-color: #fff;
+  color: gray;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Cinzel;
+  height: 38px;
+  padding: 5px;
+  outline: none;
+  width: 80%;
+}
+
+.type-6 .form-attending .form .form-content .your-name .input-name:focus {
+  border-color: #f07677;
+}
+
+.type-6 .form-attending .form .form-content .guest {
+  margin-bottom: 5px;
+}
+
+.type-6 .form-attending .form .form-content .guest .guest-select {
+  background-color: #fff;
+  color: gray;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Cinzel;
+  height: 38px;
+}
+
+.type-6 .form-attending .form .form-content .guest .guest-select option {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "san-serif";
+}
+
+.type-6 .form-attending .form .form-content .attending {
+  margin-bottom: 5px;
+}
+
+.type-6 .form-attending .form .form-content .attending .attending-select {
+  background-color: #fff;
+  color: gray;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: Cinzel;
+  height: 38px;
+}
+
+.type-6 .form-attending .form .form-content .attending .attending-select option {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "san-serif";
+}
+
+.type-6 .form-attending .form .form-content .submit-btn {
+  margin: 20px 0;
+  background-color: #f07677;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: Cinzel;
+  cursor: pointer;
+}
+
+.type-6 .form-attending .form .form-content .submit-btn:hover {
+  background-color: #ed5f60;
+}
+
+@media (max-width: 991px) {
+  .type-6 .form-attending .form {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=6.css.map */

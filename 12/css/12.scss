@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Clicker Script;
+    src: url(../fonts/ClickerScript-Regular.ttf)
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.ttf)
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf)
+}
+
+.type-12 {
+    $title-hover: #f17677;
+    .title {
+        font-size: 26px;
+        text-align: center;
+        font-family: Cinzel;
+        padding: 30px 0 40px;
+    }
+    .post-article {
+        margin-bottom: 50px;
+        .post-title {
+            a {
+                color: #000;
+                text-decoration: none;
+                &:hover {
+                    color: $title-hover;
+                }
+            }
+            font-size: 20px;
+            line-height: 28px;
+            font-family: Cinzel;
+        }
+        .post-media {
+            position: relative;
+            &:hover {
+                cursor: pointer;
+                .thumbnail-overlay {
+                    opacity: .8;
+                }
+            }
+            img {
+                max-width: 100%;
+                display: block;
+                height: auto;
+                transition: .5s ease;
+                backface-visibility: hidden;
+                opacity: 1;
+            }
+            .thumbnail-overlay {
+                transition: .5s ease;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                z-index: 2;
+                position: absolute;
+                overflow: hidden;
+                background-color: rgba(0, 0, 0, .8);
+                text-align: center;
+                text-decoration: none;
+                opacity: 0;
+                &:hover {
+                    .btn-more {
+                        animation: up-btn .5s ease-in-out;
+                    }
+                }
+                .btn-more {
+                    transition: all .5s;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    z-index: 555;
+                    opacity: 1;
+                    font-size: 20px;
+                    line-height: 28px;
+                    font-family: Cinzel;
+                    color: #fff;
+                    background-color: #ed5f60;
+                    padding: 8px 30px;
+                    border-radius: 20px;
+                }
+            }
+        }
+        .post-content {
+            font-size: 12px;
+            line-height: 18px;
+            font-family: Lato;
+            margin: 10px 0;
+        }
+        .post-date {
+            h5 {
+                color: #393939;
+                font-size: 12px;
+                line-height: 16px;
+                font-family: Cinzel;
+            }
+        }
+        .clear {
+            clear: both;
+        }
+        .post-meta {
+            div {
+                float: left;
+                margin: -1px 0 0 -1px;
+                padding: 15px 15px 12px;
+                i {
+                    margin: 0 5px;
+                    color: gray;
+                }
+                .count {
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-family: Cinzel;
+                    color: $title-hover;
+                }
+            }
+            a {
+                font-size: 12px;
+                line-height: 20px;
+                font-family: Cinzel;
+                color: $title-hover;
+            }
+            .love {
+                float: right;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    @keyframes up-btn {
+        from {
+            top: 70%;
+        }
+        to {
+            top: 50%;
+        }
+    }
+}

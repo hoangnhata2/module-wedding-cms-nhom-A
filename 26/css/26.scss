@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Clicker Script;
+    src: url(../fonts/ClickerScript-Regular.ttf)
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.ttf)
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf)
+}
+
+.type-26 {
+    $title-hover: #f17677;
+    .title {
+        font-size: 26px;
+        text-align: center;
+        font-family: Cinzel;
+        padding: 30px 0 40px;
+    }
+    .post-article {
+        margin-bottom: 50px;
+        .post-title {
+            a {
+                color: #000;
+                text-decoration: none;
+                &:hover {
+                    color: $title-hover;
+                }
+            }
+            font-size: 20px;
+            line-height: 28px;
+            font-family: Cinzel;
+        }
+        .post-content {
+            font-size: 12px;
+            line-height: 18px;
+            font-family: Lato;
+            margin: 10px 0;
+        }
+        .post-date {
+            float: left;
+            h5 {
+                color: #393939;
+                font-size: 12px;
+                line-height: 16px;
+                font-family: Cinzel;
+            }
+        }
+        .clear {
+            clear: both;
+        }
+        .post-meta {
+            div {
+                float: left;
+                margin: -1px 0 0 -1px;
+                padding: 15px 15px 12px;
+                i {
+                    margin: 0 5px;
+                }
+                .count {
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-family: Cinzel;
+                    color: $title-hover;
+                }
+            }
+            a {
+                font-size: 12px;
+                line-height: 20px;
+                font-family: Cinzel;
+                color: $title-hover;
+            }
+            .love {
+                float: right;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    @keyframes up-btn {
+        from {
+            top: 70%;
+        }
+        to {
+            top: 50%;
+        }
+    }
+}

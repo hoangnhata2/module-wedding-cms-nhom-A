@@ -1,0 +1,329 @@
+        @font-face {
+            font-family: Clicker Script;
+            src: url(../fonts/ClickerScript-Regular.ttf)
+        }
+        
+        @font-face {
+            font-family: Cinzel;
+            src: url(../fonts/Cinzel-Regular.ttf)
+        }
+        
+        .type-1 {
+            $text-color: #f07677;
+            $bg-color-mb: rgb(236, 235, 235);
+            $text-color-333: #333;
+            font-family: Cinzel;
+            @mixin text {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16px;
+                color: #000;
+            }
+            a {
+                text-decoration: none;
+            }
+            ul {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+            .first-row {
+                background: #fff;
+                height: 221px;
+                width: 100%;
+                .logo-wrapper {
+                    text-align: center;
+                    .logo {
+                        position: relative;
+                        top: 5px;
+                        height: 100%;
+                        display: inline-block;
+                        text-decoration: none !important;
+                        img {
+                            height: 112px;
+                        }
+                    }
+                    .logo-title {
+                        font: {
+                            size: 50px;
+                            family: "Clicker Script";
+                        }
+                        text-decoration: none;
+                        color: $text-color;
+                        position: relative;
+                        display: inline-block;
+                        top: -5px;
+                        line-height: 30px;
+                        white-space: nowrap;
+                        z-index: 10;
+                        .left-name {
+                            position: absolute;
+                            right: 200%;
+                            top: .1em;
+                        }
+                        .name-delimiter {
+                            display: inline-block;
+                            color: #000;
+                            font-size: 30px;
+                            line-height: 30px;
+                        }
+                        .right-name {
+                            position: absolute;
+                            left: 200%;
+                            top: .1em;
+                        }
+                    }
+                    .logo-tagline {
+                        padding-bottom: 20px;
+                        padding-top: 5px;
+                        font: {
+                            size: 12px;
+                            family: Cinzel;
+                        }
+                        line-height: 20px;
+                        display: block;
+                        color: #898989;
+                        letter-spacing: 4px;
+                    }
+                }
+            }
+            .second-row {
+                .toggle {
+                    position: fixed;
+                    left: 30px;
+                    top: 10%;
+                    font-size: 30px;
+                    color: $text-color;
+                    display: none;
+                }
+                #main-menu {
+                    .menu {
+                        display: block;
+                        position: relative;
+                        height: 41px;
+                        text-align: center;
+                        .menu-item {
+                            display: inline-block;
+                            padding: 0 5px 5px 0;
+                            position: relative;
+                            cursor: pointer;
+                            margin: 0;
+                            list-style: none;
+                            margin: 0 20px;
+                            text-transform: uppercase;
+                            &:hover {
+                                padding-bottom: 18px;
+                                color: $text-color;
+                                .sub-menu {
+                                    display: block;
+                                }
+                            }
+                            .menu-item-a {
+                                @include text();
+                                &:hover {
+                                    color: $text-color;
+                                }
+                            }
+                            .fa-angle-down,
+                            .fa-angle-right {
+                                font-size: 11px;
+                            }
+                            .sub-menu {
+                                top: 100%;
+                                left: 50%;
+                                margin: 0 auto auto -81.5px;
+                                position: absolute;
+                                z-index: 200;
+                                display: none;
+                                width: 163px;
+                                border-radius: 2px;
+                                box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+                                text-align: left;
+                                .sub-menu-item {
+                                    border-bottom: 1px solid;
+                                    list-style: none;
+                                    cursor: pointer;
+                                    position: relative;
+                                    margin: 0;
+                                    padding: 10px 0;
+                                    background-color: $text-color;
+                                    color: #fff;
+                                    text-align: center;
+                                    text-transform: capitalize;
+                                    .sub-menu {
+                                        left: 100%;
+                                        top: 0;
+                                        margin: 0;
+                                        display: none;
+                                        background-color: #fff;
+                                        .sub-menu-item {
+                                            background-color: #fff;
+                                            &:hover {
+                                                background-color: #d1c8c8;
+                                            }
+                                            .sub-menu-item-a {
+                                                color: $text-color;
+                                            }
+                                        }
+                                        &:before {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 0;
+                                            height: 0;
+                                            border: 0;
+                                            border-top: 0;
+                                            border-bottom: 0;
+                                            content: "";
+                                        }
+                                    }
+                                    &:hover {
+                                        background-color: #fff;
+                                        .sub-menu-item-a,
+                                        .fa-angle-right {
+                                            color: #f07677;
+                                        }
+                                        .sub-menu {
+                                            display: block;
+                                        }
+                                    }
+                                    .sub-menu-item-a {
+                                        color: #fff;
+                                    }
+                                }
+                                &:before {
+                                    position: absolute;
+                                    top: -7px;
+                                    left: 73.5px;
+                                    width: 0;
+                                    height: 0;
+                                    border: 8px solid transparent;
+                                    border-top: 0;
+                                    border-bottom: 7px solid #f07677;
+                                    content: "";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .menu-lines {
+                background: {
+                    repeat: repeat-x;
+                    position: 0 0;
+                    attachment: scroll;
+                    color: #fff;
+                    size: auto;
+                }
+                display: block;
+                widows: 100%;
+                height: 41px;
+                position: relative;
+            }
+            @media (max-width: 991px) {
+                .second-row {
+                    .toggle {
+                        display: block;
+                        z-index: 1000;
+                    }
+                    .active-toggle {
+                        left: 220px;
+                        transition: all .5s ease-in-out;
+                    }
+                    #main-menu {
+                        .menu {
+                            width: 200px;
+                            display: block;
+                            position: relative;
+                            height: auto;
+                            text-align: center;
+                            position: fixed;
+                            left: -200px;
+                            top: 10%;
+                            background-color: $bg-color-mb;
+                            .menu-item {
+                                display: block;
+                                padding: 20px;
+                                position: relative;
+                                margin: 0;
+                                .fa-angle-right,
+                                .fa-angle-down {
+                                    color: $text-color-333;
+                                }
+                                .sub-menu {
+                                    top: 10px;
+                                    left: -20px;
+                                    margin: 0;
+                                    position: relative;
+                                    width: 200px;
+                                    border-radius: 0;
+                                    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+                                    background-color: $bg-color-mb;
+                                    .sub-menu-item {
+                                        list-style: none;
+                                        cursor: pointer;
+                                        position: relative;
+                                        top: 5px;
+                                        margin: 0;
+                                        padding: 10px 0;
+                                        background-color: $bg-color-mb;
+                                        text-align: center;
+                                        .sub-menu {
+                                            position: relative;
+                                            left: 0;
+                                            top: 5px;
+                                            margin: 0;
+                                            display: none;
+                                            background-color: $bg-color-mb;
+                                            .sub-menu-item {
+                                                background-color: $bg-color-mb;
+                                                position: relative;
+                                                border-bottom: 1px solid $text-color;
+                                                border-top: 1px solid $text-color;
+                                                .sub-menu-item-a {
+                                                    color: $text-color-333;
+                                                    font-size: 12px;
+                                                }
+                                            }
+                                            &:before {
+                                                position: unset;
+                                                top: 0;
+                                                left: 0;
+                                                width: 0;
+                                                height: 0;
+                                                border: 0;
+                                                border-top: 0;
+                                                border-bottom: 0;
+                                                content: "";
+                                            }
+                                        }
+                                        &:hover {
+                                            background-color: $bg-color-mb;
+                                            .sub-menu-item-a,
+                                            .fa-angle-right {
+                                                color: $text-color-333;
+                                            }
+                                            .sub-menu {
+                                                display: block;
+                                            }
+                                        }
+                                        .sub-menu-item-a {
+                                            color: $text-color-333;
+                                        }
+                                    }
+                                    &:before {
+                                        position: unset;
+                                        border: 0;
+                                        content: "";
+                                    }
+                                }
+                            }
+                        }
+                        .active-menu {
+                            left: 0px;
+                            transition: all .5s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }

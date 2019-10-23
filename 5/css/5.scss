@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Clicker Script;
+    src: url(../fonts/ClickerScript-Regular.ttf)
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.ttf)
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf)
+}
+
+.type-5 {
+    $h3-color: #f07677;
+    $a-color: #f17677;
+    $time-color: #83a98a;
+    $h5-color: #393939;
+    $text-color: #898989;
+    $font-family-2: Clicker Script;
+    $font-family-1: Cinzel;
+    $font-family-3: Lato;
+    h2 {
+        margin: 40px 0 30px 0;
+        font: {
+            size: 20px;
+            weight: normal;
+            family: $font-family-1;
+        }
+        text-align: center;
+    }
+    .left {
+        animation: leftToRight 1s ease;
+    }
+    .right {
+        animation: rightToLeft 1s ease;
+    }
+    .services {
+        .services-title {
+            margin: 12px 0 0;
+            line-height: 1;
+            color: $h3-color;
+            font: {
+                size: 30px;
+                family: $font-family-2;
+            }
+            text-align: center;
+        }
+        .services-main-info {
+            background: url('../images/frame-time.png') no-repeat;
+            background-image: url('../images/frame-time.png') none;
+            background-size: contain;
+            padding: 20px 30px;
+            margin: 6px auto;
+            font: {
+                weight: 300;
+                size: 24px;
+                family: $font-family-2
+            }
+            color: $time-color;
+            line-height: 30px;
+            width: 180px;
+            text-align: center;
+            color: $time-color;
+        }
+        .services-content {
+            text-align: center;
+            .push {
+                height: 20px;
+            }
+            h5 {
+                font: {
+                    size: 12px;
+                    family: $font-family-1;
+                }
+                line-height: 16px;
+                color: $h5-color;
+            }
+            p {
+                color: $text-color;
+                font-size: 12px;
+                font-family: $font-family-3;
+            }
+            a {
+                text-decoration: none;
+                color: $a-color;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+    .img-services {
+        .top-img {
+            width: 285px;
+            margin: 0 auto;
+        }
+        .bottom-img {
+            width: 95px;
+            margin: 0 auto;
+        }
+    }
+    @keyframes leftToRight {
+        0% {
+            transform: translateX(-100px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+    @keyframes rightToLeft {
+        0% {
+            transform: translateX(100px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+}
