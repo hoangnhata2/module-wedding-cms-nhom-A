@@ -166,6 +166,10 @@
   text-transform: capitalize;
 }
 
+.type-1 .second-row #main-menu .menu .menu-item .sub-menu .sub-menu-item:last-child {
+  border-bottom: 0;
+}
+
 .type-1 .second-row #main-menu .menu .menu-item .sub-menu .sub-menu-item .sub-menu {
   left: 100%;
   top: 0;
