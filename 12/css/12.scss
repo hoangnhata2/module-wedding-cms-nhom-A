@@ -94,6 +94,9 @@
             margin: 10px 0;
         }
         .post-date {
+            i {
+                float: left;
+            }
             h5 {
                 color: #393939;
                 font-size: 12px;
@@ -132,6 +135,11 @@
                     text-decoration: none;
                 }
             }
+        }
+    }
+    nav {
+        .pagination {
+            float: right;
         }
     }
     @keyframes up-btn {

@@ -58,7 +58,7 @@
             }
             .frame-post {
                 border: 1px solid rgb(172, 166, 166);
-                width: 465px;
+                width: 400px;
                 background-color: #fff;
                 .post-img {
                     img {
@@ -75,6 +75,9 @@
                         a {
                             text-decoration: none;
                             color: #000;
+                            &:hover {
+                                color: $btn-bg-color;
+                            }
                         }
                     }
                     p {
@@ -97,7 +100,7 @@
     }
     .bottom {
         text-align: center;
-        margin-top: -50px;
+        margin-top: 20px;
         p {
             img {
                 margin: 5px auto;

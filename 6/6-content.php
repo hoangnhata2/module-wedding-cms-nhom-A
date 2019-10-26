@@ -11,7 +11,7 @@
 
     $url_path= str_replace('\\', '/', $url_path);
     ?>
-     <div class="type-6" data-parallax="scroll" data-image-src="./images/6-1.png">
+    <div class="type-6" data-parallax="scroll" data-image-src="./images/6-1.png">
         <div class="container">
             <div class="row">
                 <div class="bottle-parallax" data-parallax="scroll"></div>
@@ -50,6 +50,13 @@
                                 </div>
                                 <input type="submit" value="I am attending" class="submit-btn">
                             </div>
+
+                        </div>
+                        <div class="validation-form error">
+                            Validation errors occurred. Please confirm the fields and submit it again.
+                        </div>
+                        <div class="validation-form success">
+                            Thanks for attending, we will see you at our wedding.
                         </div>
                     </form>
 
@@ -57,4 +64,3 @@
             </div>
         </div>
     </div>
-        

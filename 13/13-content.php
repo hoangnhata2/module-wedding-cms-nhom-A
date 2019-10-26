@@ -18,22 +18,30 @@
                 <div class="col-md-3 col-sm-12">
                     <h2 class="post-title">our love story</h2>
                     <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illo doloribus sint nam et, minus aut ut nesciunt recusandae veritatis pariatur, assumenda rerum? Sunt non maxime eum placeat obcaecati inventore?</p>
+                    <div class="read">
                     <a href="#" class="read-more">Read More →</a>
+                    </div>
                 </div>
                 <div class="col-md-3 col-sm-12">
                     <h2 class="post-title">Location</h2>
                     <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illo doloribus sint nam et, minus aut ut nesciunt recusandae veritatis pariatur, assumenda rerum? Sunt non maxime eum placeat obcaecati inventore?</p>
+                    <div class="read">
                     <a href="#" class="read-more">Read More →</a>
+                    </div>
                 </div>
                 <div class="col-md-3 col-sm-12">
                     <h2 class="post-title">Braidmaids</h2>
                     <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illo doloribus sint nam et, minus aut ut nesciunt recusandae veritatis pariatur, assumenda rerum? Sunt non maxime eum placeat obcaecati inventore?</p>
+                    <div class="read">
                     <a href="#" class="read-more">Read More →</a>
+                    </div>
                 </div>
                 <div class="col-md-3 col-sm-12">
                     <h2 class="post-title">Groomesmen</h2>
                     <p class="post-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illo doloribus sint nam et, minus aut ut nesciunt recusandae veritatis pariatur, assumenda rerum? Sunt non maxime eum placeat obcaecati inventore?</p>
+                    <div class="read">
                     <a href="#" class="read-more">Read More →</a>
+                    </div>
                 </div>
             </div>
         </div>

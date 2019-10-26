@@ -32,10 +32,16 @@
   line-height: 18px;
 }
 
-.type-13 .read-more {
+.type-13 .read .read-more {
   color: #f17677;
   text-decoration: none;
   font-size: 12px;
   line-height: 18px;
+}
+
+@media (max-width: 991px) {
+  .type-13 .read {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=13.css.map */

@@ -37,7 +37,7 @@
                                     <img src="./images/2.png" alt="1" class="img-fluid">
                                 </div>
                                 <div class="post-content">
-                                    <h2><a href="#" title="Propose to Sarah">Sweer Cakes</a></h2>
+                                    <h2><a href="#" title="Sweer Cakes">Sweer Cakes</a></h2>
                                     <p>Aristotle made several efforts to explain how moral conduct contributes to the good life for…</p>
                                     <h5 class="post-date">July 29, 2013</h5>
                                 </div>
@@ -49,7 +49,7 @@
                                     <img src="./images/3.png" alt="1" class="img-fluid">
                                 </div>
                                 <div class="post-content">
-                                    <h2><a href="#" title="Propose to Sarah">Having Coffee In Venice</a></h2>
+                                    <h2><a href="#" title="Having Coffee In Venice">Having Coffee In Venice</a></h2>
                                     <p>Aristotle made several efforts to explain how moral conduct contributes to the good life for…</p>
                                     <h5 class="post-date">July 29, 2013</h5>
                                 </div>
@@ -61,7 +61,7 @@
                                     <img src="./images/4.png" alt="1" class="img-fluid">
                                 </div>
                                 <div class="post-content">
-                                    <h2><a href="#" title="Propose to Sarah">The Dinner</a></h2>
+                                    <h2><a href="#" title="The Dinner">The Dinner</a></h2>
                                     <p>Aristotle made several efforts to explain how moral conduct contributes to the good life for…</p>
                                     <h5 class="post-date">July 29, 2013</h5>
                                 </div>
@@ -73,7 +73,7 @@
                                     <img src="./images/5.png" alt="1" class="img-fluid">
                                 </div>
                                 <div class="post-content">
-                                    <h2><a href="#" title="Propose to Sarah">THe Day Before The Wedding</a></h2>
+                                    <h2><a href="#" title="The Day Before The Wedding">The Day Before The Wedding</a></h2>
                                     <p>Aristotle made several efforts to explain how moral conduct contributes to the good life for…</p>
                                     <h5 class="post-date">July 29, 2013</h5>
                                 </div>
@@ -85,7 +85,7 @@
                                     <img src="./images/6.png" alt="1" class="img-fluid">
                                 </div>
                                 <div class="post-content">
-                                    <h2><a href="#" title="Propose to Sarah">Planning My HoneyMoon</a></h2>
+                                    <h2><a href="#" title="Planning My HoneyMoon">Planning My HoneyMoon</a></h2>
                                     <p>Aristotle made several efforts to explain how moral conduct contributes to the good life for…</p>
                                     <h5 class="post-date">July 29, 2013</h5>
                                 </div>
@@ -101,7 +101,7 @@
             <div class="row">
                 <div class="bottom">
                     <p>
-                        <img src="https://the-wedding-day.vamtam.com/wp-content/uploads/2013/03/element-2.svg" alt="illustratation5">
+                        <img src="./images/element-2.svg" alt="illustratation5">
                     </p>
                     <a href="#" class="goto-btn"><span class="btn-text">Go To Blog</span></a>
                 </div>

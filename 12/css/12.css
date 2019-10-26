@@ -109,6 +109,10 @@
   margin: 10px 0;
 }
 
+.type-12 .post-article .post-date i {
+  float: left;
+}
+
 .type-12 .post-article .post-date h5 {
   color: #393939;
   font-size: 12px;
@@ -151,6 +155,10 @@
 
 .type-12 .post-article .post-meta .love a {
   text-decoration: none;
+}
+
+.type-12 nav .pagination {
+  float: right;
 }
 
 @-webkit-keyframes up-btn {

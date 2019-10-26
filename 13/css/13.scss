@@ -30,9 +30,16 @@
         color: $content-color;
         @include text(12px, 18px);
     }
-    .read-more {
-        color: $read-more-color;
-        text-decoration: none;
-        @include text(12px, 18px);
+    .read {
+        .read-more {
+            color: $read-more-color;
+            text-decoration: none;
+            @include text(12px, 18px);
+        }
+    }
+    @media (max-width: 991px) {
+        .read {
+            text-align: center;
+        }
     }
 }

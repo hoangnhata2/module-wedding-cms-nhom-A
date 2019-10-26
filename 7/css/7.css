@@ -59,7 +59,7 @@
 
 .type-7 .wrapper .swiper-container .frame-post {
   border: 1px solid #aca6a6;
-  width: 465px;
+  width: 400px;
   background-color: #fff;
 }
 
@@ -81,6 +81,10 @@
   color: #000;
 }
 
+.type-7 .wrapper .swiper-container .frame-post .post-content h2 a:hover {
+  color: #f07677;
+}
+
 .type-7 .wrapper .swiper-container .frame-post .post-content p {
   color: #898989;
   font-size: 12px;
@@ -95,7 +99,7 @@
 
 .type-7 .bottom {
   text-align: center;
-  margin-top: -50px;
+  margin-top: 20px;
 }
 
 .type-7 .bottom p img {
