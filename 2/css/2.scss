@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+
+.type-2 {
+	$color_1: #000;
+	$color_2: #f1f1f1;
+	$font_family_1: Cinzel;
+
+
+	font-family: $font_family_1;
+	position: relative;
+	height: 100%;
+	color: $color_1;
+	margin: 0;
+	padding: 0;
+	.swiper-container {
+		width: auto;
+		height: auto;
+	}
+	.swiper-slide {
+		position: relative;
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		img {
+			width: 100%;
+		}
+		.wrap{
+			position: absolute;
+			color: rgb(241, 118, 119);
+			font-family: Cinzel;
+			font-size: 40px;
+    		line-height: 40px;
+			animation: zoom 1s ease;
+		}
+		&:nth-child(2) {
+			.wrap {
+				animation: zoom 1s ease;
+			}
+		}
+	}
+	.swiper-button-next {
+		color: $color_2;
+	}
+	.swiper-button-prev {
+		color: $color_2;
+	}
+	@keyframes zoom {
+		from {
+			transform: scale(-1);
+		}
+		to {
+			transform: scale(1);
+		}
+	}
+}
