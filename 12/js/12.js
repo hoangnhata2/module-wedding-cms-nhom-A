@@ -1,6 +1,5 @@
 $(document).ready(function() {
     var count = 0;
-
     $('.love a').click(function() {
         var number = parseInt($(this).children('span').text());
         count += 1;
