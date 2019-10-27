@@ -1,0 +1,52 @@
+$background-color : #898989;
+$color-text : #cacaca;
+$height : 178px;
+$padding : 15% 0;
+$font-size-big : 20px;
+$font-size-small : 10px;
+
+.module-10 {
+    background: $background-color;
+    .text-left{
+        height: $height;
+        text-align: center;
+        padding: $padding;
+        color: $color-text;
+        h2 {
+            text-align: center;
+            font-size: $font-size-big;
+        }
+        h6 {
+            text-align: center;
+            font-size: $font-size-small;
+        }
+    }
+
+    .text-mid {
+        margin: 5px auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .text-right {
+        height: $height;
+        text-align: center;
+        padding: $padding;
+        color: $color-text;
+        h2 {
+            text-align: center;
+            font-size: $font-size-big;
+        }
+        a {
+            color: $color-text;
+            text-align: center;
+            text-decoration: none;
+            h6 {
+                font-size: $font-size-small;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

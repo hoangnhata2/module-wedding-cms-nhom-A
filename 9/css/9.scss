@@ -1,0 +1,140 @@
+.module-9 {
+    $padding-tile : 50px 5px;
+    $padding-row : 15px 0;
+    $padding-row-mobile : 10px 0;
+    $width-img : 100%;
+    $width-img-mobile : 240px;
+    $padding-center : 50px 0;
+    $padding-center-textbutton : 10px 30px;
+    $backround : #f07677;
+    $backround-hover : #ed5f60;
+    $color-btn : #fff;
+
+    @mixin eye {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 50px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    @mixin background {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: $backround-hover;
+    }
+
+    .tile {
+        font: normal 20px/28px "Cinzel";
+        text-align: center;
+        margin: 0;
+        padding: $padding-tile;
+        
+    }
+
+    .table-1 {
+        padding: $padding-row;
+        .gird-1 {
+            position: relative;
+            width: 340px;
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+
+            .middle {
+                @include background();
+                    .icon {
+                        @include eye;
+                    }
+                
+            }
+            
+            &:hover {
+                img {
+                    opacity: 0.3 ;
+                    transition: 0.5s;   
+                }
+
+                .middle {
+                    opacity: 0.5 ;
+                    transition: 0.5s;
+                    .icon {
+                        opacity: 1;
+                        transition: 0.5s;
+                        color: $color-btn;
+                    }
+                }
+            }    
+        }
+        
+        
+    }
+
+    .table-2 {
+        @extend .table-1;
+    }
+
+    .center {
+        text-align: center;
+        padding: $padding-center;
+            .text-button {
+            text-decoration: none;
+            text-align: center;
+            padding: $padding-center-textbutton;
+            background: $backround;
+            color: $color-btn;
+            border-radius: 20px;
+            font-size: 20px;
+                &:hover{
+                    background: $backround-hover;
+                }
+            }
+    }
+
+    
+
+    @media screen and(max-width:480px)  {
+        .tile {
+            font-size: 10px
+        }
+
+        .row-1 {
+            .col-md-4 {
+                img{
+                    padding: $padding-row-mobile;    
+                    width: $width-img-mobile;
+                }
+            }
+        }
+
+        .row-2 {
+            .col-md-4 {
+                img{
+                    padding: $padding-row-mobile; 
+                    width: $width-img-mobile;
+                }
+            }
+        }
+
+        .center {
+            text-align: center;
+        }         
+    }
+}
+
