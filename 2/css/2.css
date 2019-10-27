@@ -43,11 +43,13 @@
   font-family: Cinzel;
   font-size: 40px;
   line-height: 40px;
-  animation: zoom 1s ease;
+  -webkit-animation: zoom 1s ease;
+          animation: zoom 1s ease;
 }
 
 .type-2 .swiper-slide:nth-child(2) .wrap {
-  animation: zoom 1s ease;
+  -webkit-animation: zoom 1s ease;
+          animation: zoom 1s ease;
 }
 
 .type-2 .swiper-button-next {
@@ -58,11 +60,25 @@
   color: #f1f1f1;
 }
 
-@keyframes zoom {
+@-webkit-keyframes zoom {
   from {
-    transform: scale(-1);
+    -webkit-transform: scale(-1);
+            transform: scale(-1);
   }
   to {
-    transform: scale(1);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
+
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(-1);
+            transform: scale(-1);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=2.css.map */

@@ -8,6 +8,15 @@
   src: url(../fonts/Cinzel-Regular.ttf);
 }
 
+@-webkit-keyframes down {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0;
+  }
+}
+
 @keyframes down {
   from {
     top: -50px;
@@ -94,7 +103,8 @@
 }
 
 .type-15 .pih .icon {
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .type-15 .pih .content {
@@ -125,11 +135,15 @@
 }
 
 .type-15 .pih:hover .icon {
+  -webkit-transition: all .5s;
   transition: all .5s;
-  transform: scale(2);
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .type-15 .pih:hover .content {
   display: block;
-  animation: down .5s ease;
+  -webkit-animation: down .5s ease;
+          animation: down .5s ease;
 }
+/*# sourceMappingURL=15.css.map */

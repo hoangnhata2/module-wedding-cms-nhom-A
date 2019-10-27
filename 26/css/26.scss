@@ -15,6 +15,11 @@
 
 .type-26 {
     $title-hover: #f17677;
+    @mixin text($fS, $lH) {
+        font-size: $fS;
+        line-height: $lH;
+    }
+    font-family: Cinzel;
     .title {
         font-size: 26px;
         text-align: center;
@@ -31,24 +36,21 @@
                     color: $title-hover;
                 }
             }
-            font-size: 20px;
-            line-height: 28px;
-            font-family: Cinzel;
+            @include text(20px, 28px);
         }
         .post-content {
-            font-size: 12px;
-            line-height: 18px;
+            @include text(12px, 18px);
             font-family: Lato;
             margin: 10px 0;
         }
         .post-date {
             i {
                 float: left;
+                margin-right: 5px;
             }
             h5 {
                 color: #393939;
-                font-size: 12px;
-                line-height: 16px;
+                @include text(12px, 16px);
                 font-family: Cinzel;
             }
         }
@@ -67,15 +69,13 @@
                     margin: 0 5px;
                 }
                 .count {
-                    font-size: 12px;
-                    line-height: 20px;
+                    @include text(12px, 20px);
                     font-family: Cinzel;
                     color: $title-hover;
                 }
             }
             a {
-                font-size: 12px;
-                line-height: 20px;
+                @include text(12px, 20px);
                 font-family: Cinzel;
                 color: $title-hover;
             }
@@ -93,6 +93,25 @@
                         color: #000;
                     }
                 }
+            }
+        }
+    }
+    .pagination {
+        float: right;
+        .page-item {
+            .page-link {
+                margin: 0 5px;
+                border: none;
+                color: $title-hover;
+                padding: 2px 8px 3px !important;
+                @include text(12px, 18px);
+                font-family: Lato;
+            }
+        }
+        .active {
+            .page-link {
+                background-color: #000 !important;
+                color: #fff !important;
             }
         }
     }

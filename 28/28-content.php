@@ -18,7 +18,7 @@
                 <div class="col-md-6">
                     <div class="img-wrapper">
                         <div class="push"></div>
-                        <img src="./images/slider3.png" alt="1" class="image-story">
+                        <img src="./images/slider3.png" alt="1" class="image-story img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6">

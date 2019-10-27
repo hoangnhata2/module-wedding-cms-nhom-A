@@ -13,6 +13,10 @@
   src: url(../fonts/Lato-Regular.ttf);
 }
 
+.type-26 {
+  font-family: Cinzel;
+}
+
 .type-26 .title {
   font-size: 26px;
   text-align: center;
@@ -27,7 +31,6 @@
 .type-26 .post-article .post-title {
   font-size: 20px;
   line-height: 28px;
-  font-family: Cinzel;
 }
 
 .type-26 .post-article .post-title a {
@@ -48,6 +51,7 @@
 
 .type-26 .post-article .post-date i {
   float: left;
+  margin-right: 5px;
 }
 
 .type-26 .post-article .post-date h5 {
@@ -111,6 +115,25 @@
 
 .type-26 .post-article .post-meta div.love a span {
   color: #000;
+}
+
+.type-26 .pagination {
+  float: right;
+}
+
+.type-26 .pagination .page-item .page-link {
+  margin: 0 5px;
+  border: none;
+  color: #f17677;
+  padding: 2px 8px 3px !important;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Lato;
+}
+
+.type-26 .pagination .active .page-link {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 @-webkit-keyframes up-btn {

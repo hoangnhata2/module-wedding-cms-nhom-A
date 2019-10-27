@@ -13,11 +13,15 @@
   src: url(../fonts/Lato-Regular.ttf);
 }
 
-.type-12 .title {
-  font-size: 26px;
-  text-align: center;
+.type-12 {
   font-family: Cinzel;
+}
+
+.type-12 .title {
+  text-align: center;
   padding: 30px 0 40px;
+  font-size: 26px;
+  line-height: 26px;
 }
 
 .type-12 .post-article {
@@ -27,7 +31,6 @@
 .type-12 .post-article .post-title {
   font-size: 20px;
   line-height: 28px;
-  font-family: Cinzel;
 }
 
 .type-12 .post-article .post-title a {
@@ -102,6 +105,20 @@
   border-radius: 20px;
 }
 
+.type-12 .post-article .post-media .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+.type-12 .post-article .post-media .swiper-container .swiper-button-next,
+.type-12 .post-article .post-media .swiper-container .swiper-button-prev {
+  color: gray;
+}
+
+.type-12 .post-article .post-media .swiper-container .swiper-button-next:hover,
+.type-12 .post-article .post-media .swiper-container .swiper-button-prev:hover {
+  color: #f17677;
+}
+
 .type-12 .post-article .post-content {
   font-size: 12px;
   line-height: 18px;
@@ -111,13 +128,15 @@
 
 .type-12 .post-article .post-date i {
   float: left;
+  margin-right: 10px;
 }
 
 .type-12 .post-article .post-date h5 {
   color: #393939;
   font-size: 12px;
   line-height: 16px;
-  font-family: Cinzel;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .type-12 .post-article .clear {
@@ -138,27 +157,55 @@
 .type-12 .post-article .post-meta div .count {
   font-size: 12px;
   line-height: 20px;
-  font-family: Cinzel;
+  font-size: 12px;
+  line-height: 20px;
   color: #f17677;
 }
 
 .type-12 .post-article .post-meta a {
   font-size: 12px;
   line-height: 20px;
-  font-family: Cinzel;
+  font-size: 12px;
+  line-height: 20px;
   color: #f17677;
 }
 
-.type-12 .post-article .post-meta .love {
+.type-12 .post-article .post-meta div.love {
   float: right;
+  margin: -1px 0 0 -1px;
+  padding: 15px 15px 12px;
 }
 
-.type-12 .post-article .post-meta .love a {
+.type-12 .post-article .post-meta div.love a {
   text-decoration: none;
+  display: inline;
 }
 
-.type-12 nav .pagination {
+.type-12 .post-article .post-meta div.love a .fa-heart {
+  color: gray;
+}
+
+.type-12 .post-article .post-meta div.love a span {
+  color: #000;
+}
+
+.type-12 .pagination {
   float: right;
+}
+
+.type-12 .pagination .page-item .page-link {
+  margin: 0 5px;
+  border: none;
+  color: #f17677;
+  padding: 2px 8px 3px !important;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Lato;
+}
+
+.type-12 .pagination .active .page-link {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 @-webkit-keyframes up-btn {

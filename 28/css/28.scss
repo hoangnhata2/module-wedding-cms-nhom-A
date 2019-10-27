@@ -28,20 +28,19 @@
     }
     .img-wrapper {
         .push {
-            height: 120px;
+            height: 100px;
         }
         .image-story {
-            max-width: 100%;
             margin: 5px 20px 5px 0;
             display: block;
-            width: 538px;
-            height: 536px;
+            // width: 538px;
+            // height: 536px;
             box-sizing: border-box;
         }
     }
     .content-wrapper {
         .push {
-            height: 200px;
+            height: 180px;
         }
         h2 {
             @include text(20px, 28px);

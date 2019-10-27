@@ -52,7 +52,7 @@
                     <div class="post-article">
                         <h2 class="post-title"><a href="#">Propose To Sarah</a></h2>
                         <div class="post-date">
-                            <i class="fas fa-pencil-alt"></i>
+                            <i class="fas fa-camera"></i>
                             <h5>August 9, 2013</h5>
                         </div>
                         <div class="clear"></div>
@@ -84,11 +84,58 @@
                                     <span>7</span>
                                 </a>
                             </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="post-article">
+                        <h2 class="post-title"><a href="#">Propose To Sarah</a></h2>
+                        <div class="post-date">
+                            <i class="fas fa-images"></i>
+                            <h5>June 29, 2013</h5>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="post-media">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="./images/12-2.png" alt="2">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/12-3.png" alt="3">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="./images/12-4.png" alt="4">
+                                    </div>
+                                </div>
+
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <div class="post-meta">
+                            <div class="author">
+                                <i class="fas fa-pen-nib"></i><a href="#">Gary Jones</a>
+                            </div>
+                            <div class="comment">
+                                <i class="fas fa-comment-dots"></i><span class="count">0</span> <a href="#">Comments</a>
+                            </div>
+                            <div class="category">
+                                <i class="fas fa-folder"></i><a href="#">Advertisement</a>, <a href="#">Hobbies</a>
+                            </div>
+                            <div class="tag">
+                                <i class="fas fa-tags"></i><a href="#">Obama</a>
+                            </div>
+                            <div class="love">
+                                <a href="#">
+                                    <i class="fas fa-heart"></i>
+                                    <span>7</span>
+                                </a>
+                            </div>
 
                             <div class="clear"></div>
                         </div>
                     </div>
-                    <nav aria-label="...">
                         <ul class="pagination">
                             <li class="page-item disabled">
                                 <a class="page-link" href="#" tabindex="-1">Previous</a>
@@ -97,12 +144,10 @@
                             <li class="page-item ">
                                 <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
                             <li class="page-item">
                                 <a class="page-link" href="#">Next</a>
                             </li>
                         </ul>
-                    </nav>
                 </div>
                 <div class="col-md-3"></div>
             </div>

@@ -13,20 +13,24 @@ if (!class_exists('lessc')) {
 
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+
     <head>
         <title>12</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="<?php echo $url_path ?>/css/all.css" type="text/css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/all.css" type="text/css">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/12.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-3.4.1.js"></script>
-    <script src="<?php echo $url_path ?>/js/12.js"></script>
-       
+        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/12.js"></script>
     </head>
-    <body >
+
+    <body>
         <?php include $dir_block.'/12-content.php'; ?>
     </body>
-</html>
+
+    </html>

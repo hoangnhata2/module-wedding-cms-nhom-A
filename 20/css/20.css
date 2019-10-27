@@ -13,6 +13,8 @@
 }
 
 .type-20 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
@@ -61,3 +63,4 @@
   color: #898989;
   font: normal 12px/18px Cinzel;
 }
+/*# sourceMappingURL=20.css.map */

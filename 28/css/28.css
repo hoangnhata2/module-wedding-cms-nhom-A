@@ -22,21 +22,18 @@
 }
 
 .type-28 .img-wrapper .push {
-  height: 120px;
+  height: 100px;
 }
 
 .type-28 .img-wrapper .image-story {
-  max-width: 100%;
   margin: 5px 20px 5px 0;
   display: block;
-  width: 538px;
-  height: 536px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .type-28 .content-wrapper .push {
-  height: 200px;
+  height: 180px;
 }
 
 .type-28 .content-wrapper h2 {

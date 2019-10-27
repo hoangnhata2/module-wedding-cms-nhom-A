@@ -47,6 +47,7 @@
 
 .type-14 .icon .fa-facebook-f:hover {
   color: #000000;
+  cursor: pointer;
 }
 
 .type-14 .icon .fa-twitter {
@@ -58,4 +59,6 @@
 
 .type-14 .icon .fa-twitter:hover {
   color: #000000;
+  cursor: pointer;
 }
+/*# sourceMappingURL=14.css.map */

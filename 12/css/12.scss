@@ -15,11 +15,15 @@
 
 .type-12 {
     $title-hover: #f17677;
+    @mixin text($fS, $lH) {
+        font-size: $fS;
+        line-height: $lH;
+    }
+    font-family: Cinzel;
     .title {
-        font-size: 26px;
         text-align: center;
-        font-family: Cinzel;
         padding: 30px 0 40px;
+        @include text(26px, 26px);
     }
     .post-article {
         margin-bottom: 50px;
@@ -31,9 +35,7 @@
                     color: $title-hover;
                 }
             }
-            font-size: 20px;
-            line-height: 28px;
-            font-family: Cinzel;
+            @include text(20px, 28px);
         }
         .post-media {
             position: relative;
@@ -77,8 +79,7 @@
                     transform: translate(-50%, -50%);
                     z-index: 555;
                     opacity: 1;
-                    font-size: 20px;
-                    line-height: 28px;
+                    @include text(20px, 28px);
                     font-family: Cinzel;
                     color: #fff;
                     background-color: #ed5f60;
@@ -86,22 +87,38 @@
                     border-radius: 20px;
                 }
             }
+            .swiper-container {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .swiper-button-next,
+                .swiper-button-prev {
+                    color: gray;
+                    &:hover {
+                        color: $title-hover;
+                    }
+                }
+            }
         }
         .post-content {
-            font-size: 12px;
-            line-height: 18px;
+            @include text(12px, 18px);
             font-family: Lato;
             margin: 10px 0;
         }
         .post-date {
             i {
                 float: left;
+                margin-right: 10px;
             }
             h5 {
                 color: #393939;
                 font-size: 12px;
                 line-height: 16px;
-                font-family: Cinzel;
+                @include text(12px, 16px);
             }
         }
         .clear {
@@ -119,14 +136,14 @@
                 .count {
                     font-size: 12px;
                     line-height: 20px;
-                    font-family: Cinzel;
+                    @include text(12px, 20px);
                     color: $title-hover;
                 }
             }
             a {
                 font-size: 12px;
                 line-height: 20px;
-                font-family: Cinzel;
+                @include text(12px, 20px);
                 color: $title-hover;
             }
             div.love {
@@ -146,9 +163,23 @@
             }
         }
     }
-    nav {
-        .pagination {
-            float: right;
+    .pagination {
+        float: right;
+        .page-item {
+            .page-link {
+                margin: 0 5px;
+                border: none;
+                color: $title-hover;
+                padding: 2px 8px 3px !important;
+                @include text(12px, 18px);
+                font-family: Lato;
+            }
+        }
+        .active {
+            .page-link {
+                background-color: #000 !important;
+                color: #fff !important;
+            }
         }
     }
     @keyframes up-btn {

@@ -52,6 +52,8 @@
 }
 
 .type-19 .borderlr .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
@@ -85,3 +87,4 @@
   margin-bottom: .4em;
   text-align: center;
 }
+/*# sourceMappingURL=19.css.map */
