@@ -31,7 +31,7 @@
                         <div class="swiper-slide">
                             <div class="frame-post">
                                 <div class="post-img">
-                                    <img src="./images/2.png" alt="1" class="img-fluid">
+                                    <img src="./images/2.png" alt="1" class="img-responsive">
                                 </div>
                                 <div class="post-content">
                                     <h2><a href="#" title="Propose to Sarah">Sweet Cakes</a></h2>
@@ -43,7 +43,7 @@
                         <div class="swiper-slide">
                             <div class="frame-post">
                                 <div class="post-img">
-                                    <img src="./images/3.png" alt="1" class="img-fluid">
+                                    <img src="./images/3.png" alt="1" class="img-responsive">
                                 </div>
                                 <div class="post-content">
                                     <h2><a href="#" title="Propose to Sarah">Having Coffee In Venice</a></h2>
@@ -55,9 +55,7 @@
                         <div class="swiper-slide">
                             <div class="frame-post">
                                 <div class="post-content">
-                                    <div>
-                                        <i class="fas fa-quote-right"></i>
-                                    </div>
+                                    <i class="fas fa-quote-right"></i>
                                     <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis aperiam iusto officiis exercitationem, optio necessitatibus, veniam soluta expedita, fugiat neque tempora aut animi magni recusandae. Provident veniam
                                         mollitia aperiam nostrum!</blockquote>
                                     <h5 class="post-date">July 29, 2013</h5>
@@ -67,7 +65,7 @@
                         <div class="swiper-slide">
                             <div class="frame-post">
                                 <div class="post-img">
-                                    <img src="./images/5.png" alt="1" class="img-fluid">
+                                    <img src="./images/5.png" alt="1" class="img-responsive">
                                 </div>
                                 <div class="post-content">
                                     <h2><a href="#" title="Propose to Sarah">THe Day Before The Wedding</a></h2>
@@ -79,7 +77,7 @@
                         <div class="swiper-slide">
                             <div class="frame-post">
                                 <div class="post-img">
-                                    <img src="./images/6.png" alt="1" class="img-fluid">
+                                    <img src="./images/6.png" alt="1" class="img-responsive">
                                 </div>
                                 <div class="post-content">
                                     <h2><a href="#" title="Propose to Sarah">Planning My HoneyMoon</a></h2>

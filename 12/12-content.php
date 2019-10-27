@@ -42,8 +42,8 @@
                             <div class="love">
                                 <a href="#">
                                     <i class="fas fa-heart"></i>
+                                    <span>7</span>
                                 </a>
-                                7
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -81,8 +81,8 @@
                             <div class="love">
                                 <a href="#">
                                     <i class="fas fa-heart"></i>
+                                    <span>7</span>
                                 </a>
-                                7
                             </div>
 
                             <div class="clear"></div>
@@ -108,5 +108,3 @@
             </div>
         </div>
     </div>
-        
-

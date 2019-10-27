@@ -46,7 +46,7 @@
   margin: 10px 0;
 }
 
-.type-26 .post-article .post-date {
+.type-26 .post-article .post-date i {
   float: left;
 }
 
@@ -61,17 +61,26 @@
   clear: both;
 }
 
-.type-26 .post-article .post-meta div {
+.type-26 .post-article .post-meta div.author,
+.type-26 .post-article .post-meta div.comment,
+.type-26 .post-article .post-meta div.category,
+.type-26 .post-article .post-meta div.tag {
   float: left;
   margin: -1px 0 0 -1px;
   padding: 15px 15px 12px;
 }
 
-.type-26 .post-article .post-meta div i {
+.type-26 .post-article .post-meta div.author i,
+.type-26 .post-article .post-meta div.comment i,
+.type-26 .post-article .post-meta div.category i,
+.type-26 .post-article .post-meta div.tag i {
   margin: 0 5px;
 }
 
-.type-26 .post-article .post-meta div .count {
+.type-26 .post-article .post-meta div.author .count,
+.type-26 .post-article .post-meta div.comment .count,
+.type-26 .post-article .post-meta div.category .count,
+.type-26 .post-article .post-meta div.tag .count {
   font-size: 12px;
   line-height: 20px;
   font-family: Cinzel;
@@ -85,12 +94,23 @@
   color: #f17677;
 }
 
-.type-26 .post-article .post-meta .love {
+.type-26 .post-article .post-meta div.love {
   float: right;
+  margin: -1px 0 0 -1px;
+  padding: 15px 15px 12px;
 }
 
-.type-26 .post-article .post-meta .love a {
+.type-26 .post-article .post-meta div.love a {
   text-decoration: none;
+  display: inline;
+}
+
+.type-26 .post-article .post-meta div.love a .fa-heart {
+  color: gray;
+}
+
+.type-26 .post-article .post-meta div.love a span {
+  color: #000;
 }
 
 @-webkit-keyframes up-btn {

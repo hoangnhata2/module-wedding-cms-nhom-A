@@ -43,6 +43,9 @@
                             height: 112px;
                         }
                     }
+                    .clearboth {
+                        clear: both;
+                    }
                     .logo-title {
                         font: {
                             size: 50px;
@@ -239,7 +242,7 @@
                             display: block;
                             position: relative;
                             height: auto;
-                            text-align: center;
+                            text-align: left;
                             position: fixed;
                             left: -200px;
                             top: 10%;

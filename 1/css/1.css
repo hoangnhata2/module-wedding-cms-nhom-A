@@ -44,6 +44,10 @@
   height: 112px;
 }
 
+.type-1 .first-row .logo-wrapper .clearboth {
+  clear: both;
+}
+
 .type-1 .first-row .logo-wrapper .logo-title {
   font-size: 50px;
   font-family: "Clicker Script";
@@ -258,7 +262,7 @@
     display: block;
     position: relative;
     height: auto;
-    text-align: center;
+    text-align: left;
     position: fixed;
     left: -200px;
     top: 10%;

@@ -22,8 +22,8 @@ if (!class_exists('lessc')) {
 		<link href="<?php echo $url_path ?>/css/all.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/26.css" rel="stylesheet" type="text/css" />
-        
-       
+        <script src="<?php echo $url_path ?>/js/jquery-3.4.1.js"></script>
+        <script src="<?php echo $url_path ?>/js/26.js"></script>
     </head>
     <body >
         <?php include $dir_block.'/26-content.php'; ?>

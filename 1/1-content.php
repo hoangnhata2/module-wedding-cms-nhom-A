@@ -42,15 +42,6 @@
                             <ul class="sub-menu">
                                 <li class="sub-menu-item">
                                     <a href="#" class="sub-menu-item-a">Wedding Blog</a>
-                                    <!-- <i class="fas fa-angle-right"></i>
-                                    <ul class="sub-menu">
-                                        <li class="sub-menu-item">
-                                            <a href="#" class="sub-menu-item-a">Newspaper Style</a>
-                                        </li>
-                                        <li class="sub-menu-item">
-                                            <a href="#" class="sub-menu-item-a">Blog Post Format</a>
-                                        </li>
-                                    </ul> -->
                                 </li>
                                 <li class="sub-menu-item">
                                     <a href="#" class="sub-menu-item-a">Our Story</a>

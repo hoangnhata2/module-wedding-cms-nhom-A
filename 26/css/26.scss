@@ -42,7 +42,9 @@
             margin: 10px 0;
         }
         .post-date {
-            float: left;
+            i {
+                float: left;
+            }
             h5 {
                 color: #393939;
                 font-size: 12px;
@@ -54,7 +56,10 @@
             clear: both;
         }
         .post-meta {
-            div {
+            div.author,
+            div.comment,
+            div.category,
+            div.tag {
                 float: left;
                 margin: -1px 0 0 -1px;
                 padding: 15px 15px 12px;
@@ -74,10 +79,19 @@
                 font-family: Cinzel;
                 color: $title-hover;
             }
-            .love {
+            div.love {
                 float: right;
+                margin: -1px 0 0 -1px;
+                padding: 15px 15px 12px;
                 a {
                     text-decoration: none;
+                    display: inline;
+                    .fa-heart {
+                        color: gray;
+                    }
+                    span {
+                        color: #000;
+                    }
                 }
             }
         }

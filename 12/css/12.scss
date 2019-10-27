@@ -129,10 +129,19 @@
                 font-family: Cinzel;
                 color: $title-hover;
             }
-            .love {
+            div.love {
                 float: right;
+                margin: -1px 0 0 -1px;
+                padding: 15px 15px 12px;
                 a {
                     text-decoration: none;
+                    display: inline;
+                    .fa-heart {
+                        color: gray;
+                    }
+                    span {
+                        color: #000;
+                    }
                 }
             }
         }

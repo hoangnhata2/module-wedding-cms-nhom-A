@@ -23,10 +23,10 @@ if (!class_exists('lessc')) {
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/11.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/swiper.min.css">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/css/all.css">
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/all.css">
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
         <script src="<?php echo $url_path ?>/js/jquery-3.4.1.js"></script>
-    <script src="<?php echo $url_path ?>/js/11.js"></script>
+        <script src="<?php echo $url_path ?>/js/11.js"></script>
     </head>
     <body >
         <?php include $dir_block.'/11-content.php'; ?>
