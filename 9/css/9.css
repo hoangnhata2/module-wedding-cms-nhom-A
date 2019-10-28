@@ -1,26 +1,26 @@
-.module-9 .tile {
+.type-9 .tile {
   font: normal 20px/28px "Cinzel";
   text-align: center;
   margin: 0;
   padding: 50px 5px;
 }
 
-.module-9 .table-1, .module-9 .table-2 {
+.type-9 .table-1, .type-9 .table-2 {
   padding: 15px 0;
 }
 
-.module-9 .table-1 .gird-1, .module-9 .table-2 .gird-1 {
+.type-9 .table-1 .gird-1, .type-9 .table-2 .gird-1 {
   position: relative;
   width: 340px;
 }
 
-.module-9 .table-1 .gird-1 img, .module-9 .table-2 .gird-1 img {
+.type-9 .table-1 .gird-1 img, .type-9 .table-2 .gird-1 img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.module-9 .table-1 .gird-1 .middle, .module-9 .table-2 .gird-1 .middle {
+.type-9 .table-1 .gird-1 .middle, .type-9 .table-2 .gird-1 .middle {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -34,7 +34,7 @@
   background-color: #ed5f60;
 }
 
-.module-9 .table-1 .gird-1 .middle .icon, .module-9 .table-2 .gird-1 .middle .icon {
+.type-9 .table-1 .gird-1 .middle .icon, .type-9 .table-2 .gird-1 .middle .icon {
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -46,35 +46,35 @@
   font-size: 50px;
 }
 
-.module-9 .table-1 .gird-1 .middle .icon:hover, .module-9 .table-2 .gird-1 .middle .icon:hover {
+.type-9 .table-1 .gird-1 .middle .icon:hover, .type-9 .table-2 .gird-1 .middle .icon:hover {
   cursor: pointer;
 }
 
-.module-9 .table-1 .gird-1:hover img, .module-9 .table-2 .gird-1:hover img {
+.type-9 .table-1 .gird-1:hover img, .type-9 .table-2 .gird-1:hover img {
   opacity: 0.3;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.module-9 .table-1 .gird-1:hover .middle, .module-9 .table-2 .gird-1:hover .middle {
+.type-9 .table-1 .gird-1:hover .middle, .type-9 .table-2 .gird-1:hover .middle {
   opacity: 0.5;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.module-9 .table-1 .gird-1:hover .middle .icon, .module-9 .table-2 .gird-1:hover .middle .icon {
+.type-9 .table-1 .gird-1:hover .middle .icon, .type-9 .table-2 .gird-1:hover .middle .icon {
   opacity: 1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #fff;
 }
 
-.module-9 .center {
+.type-9 .center {
   text-align: center;
   padding: 50px 0;
 }
 
-.module-9 .center .text-button {
+.type-9 .center .text-button {
   text-decoration: none;
   text-align: center;
   padding: 10px 30px;
@@ -84,23 +84,23 @@
   font-size: 20px;
 }
 
-.module-9 .center .text-button:hover {
+.type-9 .center .text-button:hover {
   background: #ed5f60;
 }
 
 @media screen and (max-width: 480px) {
-  .module-9 .tile {
+  .type-9 .tile {
     font-size: 10px;
   }
-  .module-9 .row-1 .col-md-4 img {
+  .type-9 .row-1 .col-md-4 img {
     padding: 10px 0;
     width: 240px;
   }
-  .module-9 .row-2 .col-md-4 img {
+  .type-9 .row-2 .col-md-4 img {
     padding: 10px 0;
     width: 240px;
   }
-  .module-9 .center {
+  .type-9 .center {
     text-align: center;
   }
 }
