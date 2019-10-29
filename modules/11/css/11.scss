@@ -13,13 +13,15 @@
     $date-color: #393939;
     $text-color: #898989;
     $title-color: #f07677;
+    @mixin text($fontSize, $lineHeight) {
+        font-size: $fontSize;
+        line-height: $lineHeight;
+    }
     .column-title {
         text-align: center;
         padding: 20px 0 5px;
-        font: {
-            size: 30px;
-            family: Clicker Script;
-        }
+        font-size: 30px;
+        font-family: Clicker Script;
         line-height: 30px;
         color: $title-color;
     }
@@ -61,8 +63,7 @@
                             padding: 20px;
                             font-family: Cinzel;
                             h2 {
-                                font-size: 20px;
-                                line-height: 28px;
+                                @include text(20px, 28px);
                                 a {
                                     text-decoration: none;
                                     color: #000;
@@ -73,12 +74,10 @@
                             }
                             p {
                                 color: $text-color;
-                                font-size: 12px;
-                                line-height: 18px;
+                                @include text(12px, 18px);
                             }
                             .post-date {
-                                font-size: 12px;
-                                line-height: 20px;
+                                @include text(12px, 20px);
                                 color: $date-color;
                             }
                             .fa-quote-right {
@@ -87,13 +86,13 @@
                         }
                     }
                 }
-                .swiper-button-next,
-                .swiper-button-prev {
-                    color: $date-color;
-                    &:hover {
-                        color: #f07677 !important;
-                        transition: all .3s;
-                    }
+            }
+            .swiper-button-next,
+            .swiper-button-prev {
+                color: $date-color;
+                &:hover {
+                    color: #f07677 !important;
+                    transition: all .3s;
                 }
             }
         }
