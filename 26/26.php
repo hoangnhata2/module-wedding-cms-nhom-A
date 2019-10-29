@@ -19,7 +19,7 @@ if (!class_exists('lessc')) {
         <title>26</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="<?php echo $url_path ?>/css/all.css" rel="stylesheet" type="text/css" />
+		<link href="<?php echo $url_path ?>/css/all.css" rel="stylesheet"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/26.css" rel="stylesheet" type="text/css" />
         <script src="<?php echo $url_path ?>/js/jquery-3.4.1.js"></script>

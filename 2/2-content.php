@@ -33,7 +33,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <img class="img-responsive" src="./images/2-4.png" alt="2-4">
                     <div class="wrap">
                         <div class="txt">
-                           
+                        <p> I have the most </p> 
+                           <p>romantic man!</p>
                         </div>
                     </div>
                 </div>
