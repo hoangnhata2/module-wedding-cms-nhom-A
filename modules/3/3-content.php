@@ -11,7 +11,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="row">
             <div class="col-md-3 img-ct">
-                <img class="img-fluid" src="./images/3-1.png" alt="">
+                <img class="img-fluid" src="./images/3-2.png" alt="">
                 <div class="name">
                     Sarah Bellucci
                 </div>
@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     labore et dolore magna aliqua. Ut enim ad consequatur quis nostrud exercitation ullamco laboris nisi
                     ut aliquip ex ea commodo consequat…
                 </div>
-                <i class="fab fa-facebook"></i>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
             <div class="col-md-6">
                 <div class="dmy">
@@ -36,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 </div>
             </div>
             <div class="col-md-3">
-                <img class="img-fluid" src="./images/3-2.png" alt="">
+                <img class="img-fluid" src="./images/3-1.png" alt="">
                 <div class="name">
                     Nick Smith
                 </div>
@@ -45,7 +45,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     labore et dolore magna aliqua. Ut enim ad consequatur quis nostrud exercitation ullamco laboris nisi
                     ut aliquip ex ea commodo consequat…
                 </div>
-                <i class="fab fa-facebook"></i>
+                <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
         </div>
     </div>
