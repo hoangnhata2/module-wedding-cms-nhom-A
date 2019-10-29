@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Clicker Script;
+  src: url(../fonts/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+.type-26 {
+  font-family: Cinzel;
+}
+
+.type-26 .title {
+  font-size: 26px;
+  text-align: center;
+  font-family: Cinzel;
+  padding: 30px 0 40px;
+}
+
+.type-26 i {
+  color: gray;
+}
+
+.type-26 .post-article {
+  margin-bottom: 50px;
+}
+
+.type-26 .post-article .post-title {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.type-26 .post-article .post-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.type-26 .post-article .post-title a:hover {
+  color: #f17677;
+}
+
+.type-26 .post-article .post-content {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Lato;
+  margin: 10px 0;
+}
+
+.type-26 .post-article .post-date i {
+  float: left;
+  margin-right: 5px;
+}
+
+.type-26 .post-article .post-date h5 {
+  color: #393939;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: Cinzel;
+}
+
+.type-26 .post-article .clear {
+  clear: both;
+}
+
+.type-26 .post-article .post-meta div.author,
+.type-26 .post-article .post-meta div.comment,
+.type-26 .post-article .post-meta div.category,
+.type-26 .post-article .post-meta div.tag {
+  float: left;
+  margin: -1px 0 0 -1px;
+  padding: 15px 15px 12px;
+}
+
+.type-26 .post-article .post-meta div.author i,
+.type-26 .post-article .post-meta div.comment i,
+.type-26 .post-article .post-meta div.category i,
+.type-26 .post-article .post-meta div.tag i {
+  margin: 0 5px;
+}
+
+.type-26 .post-article .post-meta div.author .count,
+.type-26 .post-article .post-meta div.comment .count,
+.type-26 .post-article .post-meta div.category .count,
+.type-26 .post-article .post-meta div.tag .count {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Cinzel;
+  color: #f17677;
+}
+
+.type-26 .post-article .post-meta a {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: Cinzel;
+  color: #f17677;
+}
+
+.type-26 .post-article .post-meta div.love {
+  float: right;
+  margin: -1px 0 0 -1px;
+  padding: 15px 15px 12px;
+}
+
+.type-26 .post-article .post-meta div.love div {
+  font-size: 12px;
+  display: inline;
+  cursor: pointer;
+}
+
+.type-26 .post-article .post-meta div.love div .fa-heart {
+  color: gray;
+}
+
+.type-26 .post-article .post-meta div.love div span {
+  color: #000;
+  font-size: 14px;
+}
+
+.type-26 .pagination {
+  float: right;
+}
+
+.type-26 .pagination .page-item .page-link {
+  margin: 0 5px;
+  border: none;
+  color: #f17677;
+  padding: 2px 8px 3px !important;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Lato;
+}
+
+.type-26 .pagination .active .page-link {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+@-webkit-keyframes up-btn {
+  from {
+    top: 70%;
+  }
+  to {
+    top: 50%;
+  }
+}
+
+@keyframes up-btn {
+  from {
+    top: 70%;
+  }
+  to {
+    top: 50%;
+  }
+}
+/*# sourceMappingURL=26.css.map */
