@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../font/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Clicker Script;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
 .type-22 .content p {
   margin: 10px 0;
   font: normal 12px/18px "Droid Sans";

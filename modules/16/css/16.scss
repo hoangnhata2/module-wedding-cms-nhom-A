@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(../font/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family: Clicker Script;
+    src: url(../font/ClickerScript-Regular.ttf);
+}
 .type-18 {
     padding: 50px 0;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -88,11 +96,20 @@
                     }
                 }    
             }
+            
           }
-
-          
-
-        
+          .swiper-button-next {
+            color: $color-btn;
+            &:hover {
+                color: $backround-hover;
+            }
+        }
+        .swiper-button-prev {
+            color: $color-btn;
+            &:hover {
+                color: $backround-hover;
+            }
+        }
       }
 
       

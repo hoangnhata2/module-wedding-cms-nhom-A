@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../font/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Clicker Script;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
+.type-18 {
+  font-family: Cinzel;
+}
+
 .type-18 .title {
   text-align: center;
   padding: 50px;

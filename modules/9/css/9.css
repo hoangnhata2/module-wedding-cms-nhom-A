@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../font/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Clicker Script;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
 .type-9 .tile {
   font: normal 20px/28px "Cinzel";
   text-align: center;
