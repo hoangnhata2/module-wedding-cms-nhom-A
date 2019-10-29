@@ -1,0 +1,101 @@
+.type-18 {
+    padding: 50px 0;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      $backround-hover : #ed5f60;
+      $color-btn : #fff;
+
+      @mixin eye {
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 50px;
+    
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    
+        @mixin background {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: auto;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: $backround-hover;
+        }
+
+      .swiper-container {
+        width: 100%;
+        height: 100%;
+        .swiper-slide {
+            text-align: center;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            .gird-1 {
+                position: relative;
+                width: 340px;
+                img{
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                }
+    
+                .middle {
+                    @include background();
+                        .icon {
+                            @include eye;
+                        }
+                    
+                }
+                
+                &:hover {
+                    img {
+                        opacity: 0.3 ;
+                        transition: 0.5s;   
+                    }
+    
+                    .middle {
+                        opacity: 0.5 ;
+                        transition: 0.5s;
+                        .icon {
+                            opacity: 1;
+                            transition: 0.5s;
+                            color: $color-btn;
+                        }
+                    }
+                }    
+            }
+          }
+
+          
+
+        
+      }
+
+      
+
+      
+}
