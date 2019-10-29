@@ -24,6 +24,10 @@
   line-height: 26px;
 }
 
+.type-12 i {
+  color: gray;
+}
+
 .type-12 .post-article {
   margin-bottom: 50px;
 }
@@ -143,30 +147,36 @@
   clear: both;
 }
 
-.type-12 .post-article .post-meta div {
+.type-12 .post-article .post-meta div.author,
+.type-12 .post-article .post-meta div.comment,
+.type-12 .post-article .post-meta div.category,
+.type-12 .post-article .post-meta div.tag {
   float: left;
   margin: -1px 0 0 -1px;
   padding: 15px 15px 12px;
 }
 
-.type-12 .post-article .post-meta div i {
+.type-12 .post-article .post-meta div.author i,
+.type-12 .post-article .post-meta div.comment i,
+.type-12 .post-article .post-meta div.category i,
+.type-12 .post-article .post-meta div.tag i {
   margin: 0 5px;
-  color: gray;
 }
 
-.type-12 .post-article .post-meta div .count {
+.type-12 .post-article .post-meta div.author .count,
+.type-12 .post-article .post-meta div.comment .count,
+.type-12 .post-article .post-meta div.category .count,
+.type-12 .post-article .post-meta div.tag .count {
   font-size: 12px;
   line-height: 20px;
-  font-size: 12px;
-  line-height: 20px;
+  font-family: Cinzel;
   color: #f17677;
 }
 
 .type-12 .post-article .post-meta a {
   font-size: 12px;
   line-height: 20px;
-  font-size: 12px;
-  line-height: 20px;
+  font-family: Cinzel;
   color: #f17677;
 }
 
@@ -176,17 +186,19 @@
   padding: 15px 15px 12px;
 }
 
-.type-12 .post-article .post-meta div.love a {
-  text-decoration: none;
+.type-12 .post-article .post-meta div.love div {
+  cursor: pointer;
   display: inline;
+  font-size: 12px;
 }
 
-.type-12 .post-article .post-meta div.love a .fa-heart {
+.type-12 .post-article .post-meta div.love div .fa-heart {
   color: gray;
 }
 
-.type-12 .post-article .post-meta div.love a span {
+.type-12 .post-article .post-meta div.love div span {
   color: #000;
+  font-size: 14px;
 }
 
 .type-12 .pagination {

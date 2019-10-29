@@ -40,10 +40,10 @@
                                 <i class="fas fa-tags"></i><a href="#">Obama</a>
                             </div>
                             <div class="love">
-                                <a href="#">
+                                <div>
                                     <i class="fas fa-heart"></i>
                                     <span>7</span>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -79,10 +79,10 @@
                                 <i class="fas fa-tags"></i><a href="#">Obama</a>
                             </div>
                             <div class="love">
-                                <a href="#">
+                                <div>
                                     <i class="fas fa-heart"></i>
                                     <span>7</span>
-                                </a>
+                                </div>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -127,27 +127,27 @@
                                 <i class="fas fa-tags"></i><a href="#">Obama</a>
                             </div>
                             <div class="love">
-                                <a href="#">
+                                <div>
                                     <i class="fas fa-heart"></i>
                                     <span>7</span>
-                                </a>
+                                </div>
                             </div>
 
                             <div class="clear"></div>
                         </div>
                     </div>
-                        <ul class="pagination">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item ">
-                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item ">
+                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-md-3"></div>
             </div>

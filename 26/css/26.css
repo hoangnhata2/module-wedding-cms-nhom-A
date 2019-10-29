@@ -24,6 +24,10 @@
   padding: 30px 0 40px;
 }
 
+.type-26 i {
+  color: gray;
+}
+
 .type-26 .post-article {
   margin-bottom: 50px;
 }
@@ -104,17 +108,19 @@
   padding: 15px 15px 12px;
 }
 
-.type-26 .post-article .post-meta div.love a {
-  text-decoration: none;
+.type-26 .post-article .post-meta div.love div {
+  font-size: 12px;
   display: inline;
+  cursor: pointer;
 }
 
-.type-26 .post-article .post-meta div.love a .fa-heart {
+.type-26 .post-article .post-meta div.love div .fa-heart {
   color: gray;
 }
 
-.type-26 .post-article .post-meta div.love a span {
+.type-26 .post-article .post-meta div.love div span {
   color: #000;
+  font-size: 14px;
 }
 
 .type-26 .pagination {
