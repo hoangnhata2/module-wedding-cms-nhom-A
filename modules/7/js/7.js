@@ -15,10 +15,10 @@ $(document).ready(function() {
         if (width > 991) {
             swiper.params.slidesPerView = 3;
         }
-        if (width < 991) {
+        if (width <= 991) {
             swiper.params.slidesPerView = 2;
         }
-        if (width < 468) {
+        if (width <= 468) {
             swiper.params.slidesPerView = 1;
         }
     })

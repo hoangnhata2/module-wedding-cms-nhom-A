@@ -1,12 +1,22 @@
-$background-color : #898989;
-$color-text : #cacaca;
-$height : 178px;
-$padding : 15% 0;
-$font-size-big : 20px;
-$font-size-small : 10px;
+@font-face {
+    font-family: Cinzel;
+    src: url(../font/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family: Clicker Script;
+    src: url(../font/ClickerScript-Regular.ttf);
+}
 
 .type-10 {
+    $background-color : #898989;
+    $color-text : #cacaca;
+    $color-hover : #fff;
+    $height : 178px;
+    $padding : 15% 0;
+    $font-size-big : 25px;
+    $font-size-small : 15px;
     background: $background-color;
+    font-family: Cinzel;
     .text-left{
         height: $height;
         text-align: center;
@@ -44,7 +54,7 @@ $font-size-small : 10px;
             h6 {
                 font-size: $font-size-small;
                 &:hover{
-                    text-decoration: underline;
+                    color: $color-hover;
                 }
             }
         }

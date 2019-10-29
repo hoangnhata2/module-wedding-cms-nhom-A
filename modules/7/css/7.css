@@ -16,7 +16,7 @@
   text-align: center;
   padding: 20px 0 5px;
   font-size: 20px;
-  font-line-height: 28px;
+  line-height: 28px;
 }
 
 .type-7 .push {
@@ -61,7 +61,7 @@
 
 .type-7 .wrapper .swiper-container .swiper-wrapper .swiper-slide .frame-post .post-content h2 {
   font-size: 20px;
-  font-line-height: 28px;
+  line-height: 28px;
 }
 
 .type-7 .wrapper .swiper-container .swiper-wrapper .swiper-slide .frame-post .post-content h2 a {
@@ -76,22 +76,22 @@
 .type-7 .wrapper .swiper-container .swiper-wrapper .swiper-slide .frame-post .post-content p {
   color: #898989;
   font-size: 12px;
-  font-line-height: 18px;
+  line-height: 18px;
 }
 
 .type-7 .wrapper .swiper-container .swiper-wrapper .swiper-slide .frame-post .post-content .post-date {
   font-size: 12px;
-  font-line-height: 16px;
+  line-height: 16px;
   color: #393939;
 }
 
-.type-7 .wrapper .swiper-container .swiper-wrapper .swiper-button-next,
-.type-7 .wrapper .swiper-container .swiper-wrapper .swiper-button-prev {
+.type-7 .wrapper .swiper-container .swiper-button-next,
+.type-7 .wrapper .swiper-container .swiper-button-prev {
   color: #393939;
 }
 
-.type-7 .wrapper .swiper-container .swiper-wrapper .swiper-button-next:hover,
-.type-7 .wrapper .swiper-container .swiper-wrapper .swiper-button-prev:hover {
+.type-7 .wrapper .swiper-container .swiper-button-next:hover,
+.type-7 .wrapper .swiper-container .swiper-button-prev:hover {
   color: #f07677 !important;
   -webkit-transition: all .3s;
   transition: all .3s;

@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../font/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Clicker Script;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
+.type-23 {
+  font-family: Cinzel;
+}
+
 .type-23 .table-1, .type-23 .table-2 {
   background-color: #f1f1f1;
   width: 240px;
@@ -21,5 +35,10 @@
 
 .type-23 .table-1 ul li a, .type-23 .table-2 ul li a {
   color: #f17677;
+  text-decoration: none;
+}
+
+.type-23 .table-1 ul li a:hover, .type-23 .table-2 ul li a:hover {
+  color: #000;
 }
 /*# sourceMappingURL=23.css.map */

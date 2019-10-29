@@ -1,5 +1,16 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../font/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Clicker Script;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
 .type-10 {
   background: #898989;
+  font-family: Cinzel;
 }
 
 .type-10 .text-left {
@@ -11,12 +22,12 @@
 
 .type-10 .text-left h2 {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .type-10 .text-left h6 {
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .type-10 .text-mid {
@@ -34,7 +45,7 @@
 
 .type-10 .text-right h2 {
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .type-10 .text-right a {
@@ -44,10 +55,10 @@
 }
 
 .type-10 .text-right a h6 {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .type-10 .text-right a h6:hover {
-  text-decoration: underline;
+  color: #fff;
 }
 /*# sourceMappingURL=10.css.map */

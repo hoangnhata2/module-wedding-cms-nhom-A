@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Cinzel;
+  src: url(../font/Cinzel-Regular.ttf);
+}
+
+@font-face {
+  font-family: Clicker Script;
+  src: url(../font/ClickerScript-Regular.ttf);
+}
+
 .type-18 {
   padding: 50px 0;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -84,5 +94,21 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #fff;
+}
+
+.type-18 .swiper-container .swiper-button-next {
+  color: #fff;
+}
+
+.type-18 .swiper-container .swiper-button-next:hover {
+  color: #ed5f60;
+}
+
+.type-18 .swiper-container .swiper-button-prev {
+  color: #fff;
+}
+
+.type-18 .swiper-container .swiper-button-prev:hover {
+  color: #ed5f60;
 }
 /*# sourceMappingURL=16.css.map */
