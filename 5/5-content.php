@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services left">
-                        <h3 class="services-title">Main Ceremony</h3>
+                        <h3 class="services-title"><a href="#" title="Main Ceremony">Main Ceremony</a></h3>
                         <h4 class="services-main-info">16:00 - 17:00</h4>
                         <div class="services-content">
                             <h5>London, UK</h5>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services right">
-                        <h3 class="services-title">Wedding Party</h3>
+                        <h3 class="services-title"><a href="#" title="Wedding Party">Wedding Party</a></h3>
                         <h4 class="services-main-info">16:00 - 17:00</h4>
                         <div class="services-content">
                             <h5>London, UK</h5>
@@ -60,5 +60,3 @@
 
         </div>
     </div>
-        
-
